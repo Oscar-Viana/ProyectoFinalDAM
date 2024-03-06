@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.2.18.0" projectFile="C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP Nª1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Documentation1.shfbproj" started="06/03/2024 9:51:52">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013&#39;
+Searching for HTML Help 1 compiler...
+Found HTML Help 1 compiler in &#39;C:\Program Files (x86)\HTML Help Workshop\&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2024.2.18.0
+Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\APPProyecto\bin\Debug\net6.0-windows\APPProyecto.xml
+Source: C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\APPProyecto\bin\Debug\net6.0-windows\APPProyecto.dll
+    Found assembly &#39;C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\APPProyecto\bin\Debug\net6.0-windows\APPProyecto.dll&#39;
+
+Copying XML comments files
+    C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\APPProyecto\bin\Debug\net6.0-windows\APPProyecto.xml -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\APPProyecto.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (es-ES, Espa&#241;ol (Espa&#241;a))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0209
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0090
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+Compilaci&#162;n iniciada a las 06/03/2024 9:51:54.
+
+Proyecto &quot;C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj&quot; en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No hay redirecciones de enlace sugeridas procedentes de ResolveAssemblyReferences.
+GenerateRefInfo:
+  Microsoft.Build (v17.6.3+07e2947214f1a9f28a3517762c939d5bebb5f525)
+  &#184; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Using framework redirect &#39;PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;PresentationFramework, Version=6.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+  Using framework redirect &#39;System.Xaml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Xaml, Version=6.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;PresentationCore, Version=6.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by APPProyecto [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Linq (System.Linq, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by APPProyecto [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Threading.Thread (System.Threading.Thread, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by APPProyecto [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Linq.Expressions (System.Linq.Expressions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by APPProyecto [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+  Using framework redirect &#39;System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Net.Http, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Text.Json (System.Text.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51) required by APPProyecto [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.MVC.BD.getComentarios(System.Void) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.MVC.BD.getComentariosUser(System.Void) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.MVC.BD.getGenero(System.Void,System.String) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.MVC.BD.getGeneroTodos(System.Void,System.String) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.MVC.BD.getListasUser(System.Void,System.String) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.MVC.BD.getValoraciones(System.Void) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.MVC.omdb.PeliculasAmplias(System.Void) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(System.Void,APPProyecto.PaginaVentana.Movie) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(System.Void,APPProyecto.PaginaVentana.Movie) [C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj]
+  Wrote information on 15 namespaces, 28 types, and 535 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 1 duplicate member(s)
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#166;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\GenerateRefInfo-d2e8a564-78fe-40fe-9736-7fdcee0bf57d.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:05,0463
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,9244
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,4169
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,2005
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,3554
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Checking for token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Content\Welcome.aml&#39;
+    C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Content\Welcome.aml -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\ddueXml\c04fe7c8-dc9f-485b-b030-d5b35169e5dd.xml
+    Parsing topic file &#39;C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Content\VersionHistory\VersionHistory.aml&#39;
+    C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Content\VersionHistory\VersionHistory.aml -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\ddueXml\13153d55-983c-49f8-b23c-ca80aeb687a3.xml
+    Parsing topic file &#39;C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Content\VersionHistory\v1.0.0.0.aml&#39;
+    C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Content\VersionHistory\v1.0.0.0.aml -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\ddueXml\88d92fbf-9f47-4013-8eb1-feef86a85063.xml
+    Last step completed in 00:00:00,0666
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into reference topic manifest file
+    Last step completed in 00:00:00,0190
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\icons\Help.png -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\Help.png
+    Last step completed in 00:00:00,0092
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,3221
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,4030
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0459
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0310
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MainWindow._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.NavigationMainWindow.Quitaratajo(System.Object,System.Windows.Input.KeyEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.NavigationMainWindow.Quitaratajo(System.Object,System.Windows.Input.KeyEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.NavigationMainWindow.Quitaratajo(System.Object,System.Windows.Input.KeyEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.MisControles] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.UCAvatares.#ctor(System.Windows.Media.Imaging.BitmapImage,System.Int32)] Missing &lt;param name=&quot;avatar&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.UCAvatares.#ctor(System.Windows.Media.Imaging.BitmapImage,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.UCAvatares._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.UCAvatares.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.UCAvatares.iden] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.UCAvatares.imgAvatar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.UCAvatares.imgAvatar_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.UCAvatares.imgAvatar_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [E:APPProyecto.MisControles.UCAvatares.PasarRuta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.UCAvatares.ruta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.MisControles.Administracion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Administracion.UCPeticiones.#ctor(APPProyecto.MVC.Peticion,System.Int32)] Missing &lt;param name=&quot;peti&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Administracion.UCPeticiones.#ctor(APPProyecto.MVC.Peticion,System.Int32)] Missing &lt;param name=&quot;iden&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Administracion.UCPeticiones.Button_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Administracion.UCPeticiones.Button_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.correo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MisControles.Administracion.UCPeticiones.Correo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MisControles.Administracion.UCPeticiones.Id] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.lblAsunto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.lblCorreo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.lblNombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [E:APPProyecto.MisControles.Administracion.UCPeticiones.MandarID] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.peticion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MisControles.Administracion.UCPeticiones.Peticion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.stackPadre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.stackPrimer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.stackSegun] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCPeticiones.txtPeticion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Administracion.UCRegistro.#ctor(System.Boolean)] Missing &lt;param name=&quot;rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.btnRegistrar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Administracion.UCRegistro.btnRegistrar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Administracion.UCRegistro.btnRegistrar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.chRol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.txtContrase&#241;a] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.txtCorreo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.txtNombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.txtPregunta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.txtRespuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Administracion.UCRegistro.txtSeguridad] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.MisControles.Ajustes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Ajustes.SelecAvatar._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Ajustes.SelecAvatar.avatares] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Ajustes.SelecAvatar.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Ajustes.SelecAvatar.Evento_PasarRuta(System.Object,System.Int32)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Ajustes.SelecAvatar.Evento_PasarRuta(System.Object,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Ajustes.SelecAvatar.GridAvatar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Ajustes.SelecAvatar.ides] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Ajustes.SelecAvatar.user] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.MisControles.Entrar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.bordeComprobar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Button_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Button_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.compro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.ComproFalse] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.ComproTrue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.correo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.favoritoFalse] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.favoritoFalse_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.favoritoFalse_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.favoritoTrue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.favoritoTrue_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.favoritoTrue_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.genero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.imagen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [E:APPProyecto.MisControles.Entrar.UCPelicula.MandarMovie] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [E:APPProyecto.MisControles.Entrar.UCPelicula.MandarPelicula] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.pendienteFalse] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.pendienteTrue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.Poster] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseLeftButtonUp(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseLeftButtonUp(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseLeftButtonUp(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseRightButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseRightButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Entrar.UCPelicula.titulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.MisControles.Pelicula] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MisControles.Pelicula.UCComentario.#ctor(APPProyecto.MVC.Comentario)] Missing &lt;param name=&quot;com&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Pelicula.UCComentario._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Pelicula.UCComentario.borderComent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Pelicula.UCComentario.lblComent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MisControles.Pelicula.UCComentario.lblUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.MVC] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.Avatar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.Betado(System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.Betado(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.Betado(System.String)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.CambiarEstilo(System.String,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.CambiarEstilo(System.String,System.String)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.CambiarEstilo(System.String,System.String)] Missing &lt;param name=&quot;estilo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.comando] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.conexion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.Correo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.dr] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.EraseUser(System.String)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.Estilo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.Fecha] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getComentarios(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getComentarios(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getComentarios(System.Void)] Missing &lt;param name=&quot;titulo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getComentariosUser(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getComentariosUser(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getComentariosUser(System.Void)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGenero(System.Void,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGenero(System.Void,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGenero(System.Void,System.String)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGenero(System.Void,System.String)] Missing &lt;param name=&quot;opc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGeneroTodos(System.Void,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGeneroTodos(System.Void,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGeneroTodos(System.Void,System.String)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getGeneroTodos(System.Void,System.String)] Missing &lt;param name=&quot;opc&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getListasUser(System.Void,System.String)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getListasUser(System.Void,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getListasUser(System.Void,System.String)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getListasUser(System.Void,System.String)] Missing &lt;param name=&quot;estado&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getUser(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getValoraciones(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getValoraciones(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.BD.getValoraciones(System.Void)] Missing &lt;param name=&quot;titulo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.Nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.Password] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.BD.Rol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Comentario.#ctor(System.String,System.String)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Comentario.#ctor(System.String,System.String)] Missing &lt;param name=&quot;coment&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Comentario.ComentarioTexto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Comentario.Nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.anio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.bd2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.calificacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.director] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.duracion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.genero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.imagen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.pais] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.omdb.PeliculasAmplias(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.omdb.PeliculasAmplias(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.omdb.PeliculasAmplias(System.Void)] Missing &lt;param name=&quot;cadena&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.premios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.reparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.sinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.omdb.titulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Peticion.Asunto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Peticion.Correo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Peticion.Mensaje] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Peticion.Nick] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;nombre&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;pregunta&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;respuesta&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.Int32)] Missing &lt;param name=&quot;rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nombre&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;avatar&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;estilo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;fechaRegistro&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;correo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;password&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;rol&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;nombre&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;avatar&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;estilo&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;fechaRegistro&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;pregunta&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.MVC.Usuario.#ctor(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)] Missing &lt;param name=&quot;respuesta&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.avatar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Avatar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.correo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Correo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.estilo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Estilo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.fechaRegistro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.FechaRegistro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Nombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.password] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Password] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.pregunta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Pregunta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.respuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Respuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.MVC.Usuario.rol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:APPProyecto.MVC.Usuario.Rol] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.anio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.calificacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.director] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.duracion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.genero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getAnio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getAnio] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getCalificacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getCalificacion] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getDirector] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getDuracion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getDuracion] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getGenero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getGenero] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getPais] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getPais] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getPremios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getPremios] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getReparto] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getSinopsis] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getTitulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.getTitulo] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.imagen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.ObtenerImagen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Movie.ObtenerImagen] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.pais] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.premios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.reparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.sinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Movie.titulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.btnGenerar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnGenerar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnGenerar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.btnLogin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnLogin_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnLogin_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.btnOlvido] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnOlvido_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnOlvido_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.btnRegistro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnRegistro_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Primera.btnRegistro_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtCorreo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtPassword] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtPregunta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtRegAlias] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtRegContra1] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtRegContra2] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtRegCorreo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Primera.txtRespuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana.Administradores] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddAdmin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddAdmin_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddAdmin_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddUser_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddUser_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.btnApp] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnApp_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnApp_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseAdmin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseAdmin_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseAdmin_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseComent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseComent_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseComent_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseUser_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseUser_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.btnPeticiones] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnPeticiones_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.btnPeticiones_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.CerrarSesion_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.CerrarSesion_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.dataComentarios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.dataUsers] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.dataUsers_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.dataUsers_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Administracion.EsSuper] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.HiloBorrar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.HiloComen] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.super] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Administracion.user] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Peticiones._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Peticiones.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Peticiones.peti] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Peticiones.peticiones] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Peticiones.stackPadre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Peticiones.UcPeticion_MandarID(System.Object,System.Int32)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Peticiones.UcPeticion_MandarID(System.Object,System.Int32)] Missing &lt;param name=&quot;id&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Administradores.Ventana.#ctor(APPProyecto.MVC.Usuario)] Missing &lt;param name=&quot;us&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Administradores.Ventana._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana.Ajustes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.#ctor(APPProyecto.MVC.Usuario)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiarEstilo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiarEstilo_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiarEstilo_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiarEstilo_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnIngresar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnIngresar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnIngresar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnNomCambiar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnNomCambiar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnNomCambiar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnPeticion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnPeticion_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnPeticion_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnRegresar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnRegresar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnRegresar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.cbPeticion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.ColocarAvatar(APPProyecto.MVC.Usuario)] Missing &lt;param name=&quot;user&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.comprobarEstilos(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Ajustes.Ajustes.comprobarEstilos(System.Int32)] Missing &lt;param name=&quot;num&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.gridEstilos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.imgAvatar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.imgAzul] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.imgClaro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.imgOscuro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.imgVerde] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.rbAzul] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.rbClaro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.rbOscuro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.rbVerde] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.txtNombre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.txtPeticion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Ajustes.Ajustes.usuario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana.Entrar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: SharedContentComponent: [Overload:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco] Missing shared content item. Tag: &#39;includeAttribute&#39;; Id:&#39;altText_pubOverload&#39;.
+SHFB: Warning BE0066: SharedContentComponent: [Overload:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco] Missing shared content item. Tag: &#39;includeAttribute&#39;; Id:&#39;altText_pubOverload&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.AjustesClick(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.AjustesClick(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.apidos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.btnBuscador] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.BtnBuscador_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.BtnBuscador_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(System.Void,APPProyecto.PaginaVentana.Movie)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(System.Void,APPProyecto.PaginaVentana.Movie)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(System.Void,APPProyecto.PaginaVentana.Movie)] Missing &lt;param name=&quot;apidos&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(System.Void,APPProyecto.PaginaVentana.Movie)] Missing &lt;param name=&quot;popu&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.Button_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.Button_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.CerrarSesionClick(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.CerrarSesionClick(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.GenPopular(System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.GenPopular(System.Collections.Generic.List`1)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.GenPopular(System.Collections.Generic.List`1)] Missing &lt;param name=&quot;lista&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.gridBuscador] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.gridCompro] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.gridRecomendar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.gridTotal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.gridUsuario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.imgAvatar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.lblBienvenida] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.Manual_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.Manual_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.MisPelisClick(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.MisPelisClick(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.scrollBuscador] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.scrollRecomendado] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.titulosComprobar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.toggleButton] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.txtBuscador] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.UcPelicula_MandarPelicula(System.Object,System.String)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Entrar.Buscador.UcPelicula_ManejarMovie(System.Object,APPProyecto.PaginaVentana.Movie)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Entrar.Buscador.user] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana.MisPeliculas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.#ctor(APPProyecto.MVC.Usuario)] Missing &lt;param name=&quot;us&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.apiomdb] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.favorita] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.gridFavoritas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.gridPendientes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.gridVistas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.PeliFav] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.PeliPend] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.pelisde] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.PeliVista] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.pendientes] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.UcPelicula_ManejarMovie(System.Object,APPProyecto.PaginaVentana.Movie)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.UcPelicula_ManejarMovie(System.Object,APPProyecto.PaginaVentana.Movie)] Missing &lt;param name=&quot;peli&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.user] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.vistas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana.Pelicula] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.#ctor(APPProyecto.PaginaVentana.Movie,System.String)] Missing &lt;param name=&quot;movie&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.#ctor(APPProyecto.PaginaVentana.Movie,System.String)] Missing &lt;param name=&quot;us&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.ActualizarCaliUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.baseDatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderbtnPremios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderbtnReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderbtnSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderCaliApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderCalificacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderCaliUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderComentario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderPremio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderPublicar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.borderSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPremios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPremios_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPremios_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPremios_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPremios_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPremios_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPremios_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPublicar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPublicar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPublicar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnPublicar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnReparto_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnReparto_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnReparto_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnReparto_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnReparto_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnReparto_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnSinopsis_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnSinopsis_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnSinopsis_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnSinopsis_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnSinopsis_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.btnSinopsis_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.cbAnonimo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboCali] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboCali_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboCali_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboCali_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboEstado] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboEstado_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboEstado_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.comboEstado_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.crearUC(System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.crearUC(System.Collections.Generic.List`1)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.crearUC(System.Collections.Generic.List`1)] Missing &lt;param name=&quot;mismodir&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.EjecutarHilo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.gridComentarios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.gridDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.gridPeliInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.imgPoster] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblAnio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblCaliApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblCaliUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblDuracion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblGenero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblPais] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.lblTitulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.movie] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.recPremio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.recReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.recSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.RectanguloPremios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.RectanguloReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.RectanguloSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.setEstados] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.txtComentario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.txtPremio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.txtReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.txtSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.user] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana.Peliculas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Comparar.#ctor(System.Collections.Generic.List`1)] Missing &lt;param name=&quot;pelis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.api] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.barrera] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.col] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Comparar.ColocarDatos(System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Comparar.ColocarDatos(System.Collections.Generic.List`1)] Missing &lt;param name=&quot;peliculas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Comparar.ColocarPoster(System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Comparar.ColocarPoster(System.Collections.Generic.List`1)] Missing &lt;param name=&quot;peliculas&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.fil] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.gridCompare] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Comparar.ObtenerPelis(System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Comparar.ObtenerPelis(System.Collections.Generic.List`1)] Missing &lt;param name=&quot;pelis&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.peliculas] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.titulos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Comparar.tool] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.apidos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderbtnPremios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderbtnReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderbtnSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderCaliApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderCalificacion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderCaliUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderComentario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderPremio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderPublicar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.borderSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPremios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPremios_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPremios_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPremios_MouseEnter(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPremios_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPremios_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPremios_MouseLeave(System.Object,System.Windows.Input.MouseEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPublicar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPublicar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPublicar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.btnReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.btnSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.cbAnonimo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.comboCali] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.comboCali_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.comboCali_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.comboCali_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.comboEstado] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.comboEstado_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.comboEstado_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.CompararNum(System.Int32)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.CompararNum(System.Int32)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.CompararNum(System.Int32)] Missing &lt;param name=&quot;valor&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.crearUC(System.Collections.Generic.List`1)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.crearUC(System.Collections.Generic.List`1)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.crearUC(System.Collections.Generic.List`1)] Missing &lt;param name=&quot;mismodir&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.gridComentarios] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.gridDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.gridListarComentario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.gridPeliInfo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.imgPoster] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblAnio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblCaliApi] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblCaliUser] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblDuracion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblGenero] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblPais] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.lblTitulo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.movie] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.recPremio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.recReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.recSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.RectanguloSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.stackPanelDirector] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.txtComentario] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.txtPremio] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.txtReparto] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.txtSinopsis] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Peliculas.Informacion.UcPelicula_ManejarMovie(System.Object,APPProyecto.PaginaVentana.Movie)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Peliculas.Informacion.user] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:APPProyecto.PaginaVentana.Principal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Bloqueo._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Bloqueo.Bloqueador(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Bloqueo.Bloqueador(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.#ctor(APPProyecto.MVC.BD)] Missing &lt;param name=&quot;baseda&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada._contentLoaded] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.basedatos] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.btnCambiar] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.btnCambiar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.btnCambiar_Click(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.lblCont] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.lblPregu] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.lblPregunta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.lblRepiite] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.lblRespuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.txtContra] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.txtContraSegura] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.txtContraSegura_PasswordChanged(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.txtContraSegura_PasswordChanged(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.txtCorreo] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.txtCorreo_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:APPProyecto.PaginaVentana.Principal.Olvidada.txtRespuesta] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.txtRespuesta_TextChanged(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:APPProyecto.PaginaVentana.Principal.Olvidada.txtRespuesta_TextChanged(System.Object,System.Windows.RoutedEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+Processed 680 topic(s)
+590 warning(s)
+CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+ResolveArtLinksComponent: Copying media files...
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 12 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
+    Last step completed in 00:00:21,7606
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+Using LCID &#39;3082&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+Processing Help 1 files in C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1
+Processed 680 HTML files.  Sorting keywords and generating See Also indices.
+Saving HTML Help 1 keyword index to C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\CodeDocumentation-FilmotecaCLM.hhk
+Saving HTML Help 1 table of contents to C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\CodeDocumentation-FilmotecaCLM.hhc
+    Last step completed in 00:00:00,2926
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertCaution.png -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertNote.png -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\AlertSecurity.png -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\CodeExample.png -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\favicon.ico -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privClass.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privDelegate.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEnumeration.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privEvent.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privExtension.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privField.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privInterface.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privMethod.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privProperty.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\privStructure.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\privStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protClass.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protDelegate.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEnumeration.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protEvent.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protExtension.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protField.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protInterface.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protMethod.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protOperator.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protProperty.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\protStructure.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\protStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubClass.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubClass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubDelegate.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubDelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEnumeration.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubEnumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubEvent.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubEvent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubExtension.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubExtension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubField.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubField.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubInterface.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubInterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubMethod.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubMethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubOperator.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubOperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubProperty.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubProperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\pubStructure.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\pubStructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\SectionExpanded.png -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\icons\Static.gif -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\icons\Static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\scripts\branding.js -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-de-DE.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-en-US.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-es-ES.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Help1.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-it-IT.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-Website.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\styles\branding.css -&gt; C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\styles\branding.css
+    Last step completed in 00:00:00,5152
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Generating HTML Help 1 project file...
+    Last step completed in 00:00:00,0110
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Compiling HTML Help 1 file...
+[C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - Build1xHelpFile.proj]
+
+  Microsoft HTML Help Compiler 4.74.8702
+  
+  
+  
+  Compiling c:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\CodeDocumentation-FilmotecaCLM.chm
+  
+  
+  
+  
+  
+  Compile time: 0 minutes, 21 seconds
+  
+  682	Topics
+  
+  6,941	Local links
+  
+  0	Internet links
+  
+  0	Graphics
+  
+  
+  
+  
+  
+  Created c:\Users\Usuario\Desktop\clase\GRADO SUPERIOR (CIFP N&#170;1)\PROYECTO FINAL 3\Aplicacion\APPProyecto\Documentation1\Help\Working\Output\HtmlHelp1\CodeDocumentation-FilmotecaCLM.chm, 2,079,787 bytes
+  
+  Compression decreased file by 14,835,131 bytes.
+  
+    Last step completed in 00:00:22,5923
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,2992
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 06/03/2024 9:52:47.  Total time: 00:00:54,9656
+
+</buildStep>
+</shfbBuild>

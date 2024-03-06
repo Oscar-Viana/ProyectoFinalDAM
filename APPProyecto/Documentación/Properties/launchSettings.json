@@ -1,0 +1,8 @@
+﻿{
+  "profiles": {
+    "Documentación": {
+      "commandName": "Executable",
+      "executablePath": "$(SHFBROOT)\\Tools\\SandcastleBuilderGUI.exe"
+    }
+  }
+}

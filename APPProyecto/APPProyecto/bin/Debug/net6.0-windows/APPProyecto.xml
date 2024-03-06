@@ -1,0 +1,1401 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APPProyecto</name>
+    </assembly>
+    <members>
+        <member name="T:APPProyecto.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:APPProyecto.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:APPProyecto.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:APPProyecto.NavigationMainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MisControles.Administracion.UCPeticiones">
+            <summary>
+            UserControl utilizado para almacenar un única petición
+            </summary>
+            <summary>
+            UCPeticiones
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Administracion.UCPeticiones.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que al pulsar un boton se eliminará de la base de datos la peticion, gracias a que envñia el ID de la petición
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Administracion.UCPeticiones.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MisControles.Administracion.UCRegistro">
+            <summary>
+            User control que se utilizará para registrar un usuario nuevo
+            (Solo lo podrán usar los administradores)
+            </summary>
+            <summary>
+            UCRegistro
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Administracion.UCRegistro.#ctor(System.Boolean)">
+            <summary>
+            Dependiendo del rol del administrador se mostrará o no el checkbox de administrador
+            este checkbox permitirá al super usuario crear nuevo administradores.
+            </summary>
+            <param name="rol"></param>
+        </member>
+        <member name="M:APPProyecto.MisControles.Administracion.UCRegistro.btnRegistrar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento para registrar el usuario donde se comprobará si el checkbox esta seleccionado, si no lo esta creará
+            un usuario normal, si lo está creará un usuario administrador.
+            Comprobará si los campos de la contraseña son iguales (seguridad)
+            Si todo es correcto se registrará un nuevo usuario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Administracion.UCRegistro.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MisControles.Ajustes.SelecAvatar">
+            <summary>
+            User Control donde se almacenarán todos los usercontrols de avatares
+            </summary>
+            <summary>
+            SelecAvatar
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Ajustes.SelecAvatar.#ctor(APPProyecto.MVC.Usuario)">
+            <summary>
+            Obtenemos todos los avatares de la base de datos y se alacenarán en la lista avaters
+            Obtenemos todos los IDs de la base de datos y se alacenarán en la lista ides
+            </summary>
+            <param name="user">Usuario actual</param>
+        </member>
+        <member name="M:APPProyecto.MisControles.Ajustes.SelecAvatar.ColocarSelecciones">
+            <summary>
+            Por cada avatar en la lista avatares se creará un user control el cual se le asignará un id de la lista ides
+            cada avatar se almacenará en un stackpanel creado previamente
+            cada cinco avatares creados se generará un nuevo stackpanel
+            al final se añadiran a un stackpanel final todos los stackpanels creados anterirormente
+            Asi obtendremos una cuadriculo de avatares
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Ajustes.SelecAvatar.Evento_PasarRuta(System.Object,System.Int32)">
+            <summary>
+            Evento que se envía el ID de avatar de un User ControlSeleccionado
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Ajustes.SelecAvatar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MisControles.UCAvatares">
+            <summary>
+            UserControl que se utilizará para mostrar todos los avatares seleccionar uno nuevo
+            </summary>
+            <summary>
+            UCAvatares
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.UCAvatares.imgAvatar_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            metodo que envía el ID del avatar
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.UCAvatares.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MisControles.Entrar.UCPelicula">
+            <summary>
+            User control que se utilizará para gestionar las peliculas
+            Incluye dos eventos para gestionar la informacion entre páginas
+            </summary>
+            <summary>
+            UCPelicula
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor del User Control
+            Comprueba si el poste de la pelicula es null.
+            Comprueba el estado de la pelicula para establecer correctamente los botones de favorito o pendiente
+            </summary>
+            <param name="corr">Correo del usuario</param>
+            <param name="titulo">Titulo de la pelicula</param>
+            <param name="imagen">Imagend e la pelicula</param>
+            <param name="genero">Genero de la pelicula</param>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseRightButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Evento en el que al hacer click dereccho e mandará el titulo de la pelicula a otra página WPF
+            Tambien controlaremos el estado del border del user control para saber si la pelicula esta
+            seleccionada o no
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que actualiza la pelicula como pendiente y deje visible el boton de pendiente
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que quita de pendiente la pelicula y actualiza los botones
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.favoritoFalse_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que pone la pelicula en favoritos y actualiza los botones
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.favoritoTrue_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que quita la peli de favoritos y actualiza los botones
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.Poster_MouseLeftButtonDown(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Evento que al pulsar en la imagen busca la info detallada en la API y la envía
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Entrar.UCPelicula.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MisControles.Pelicula.UCComentario">
+            <summary>
+            User Control que se utilizará para almacenar un unico comentario
+            </summary>
+            <summary>
+            UCComentario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MisControles.Pelicula.UCComentario.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MVC.BD">
+            <summary>
+            Clase que se utilizará para manejar la base de datos
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.#ctor">
+            <summary>
+            Constructor de la clase el cual creará la conexión con la base de datos
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.ConexionBD">
+            <summary>
+            Metodo que crea la conexion con la base de datos.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.Login(System.String,System.String)">
+            <summary>
+            Realiza el login de un usuario
+            Se controla SQLInjection.
+            
+            </summary>
+            <param name="correo">Correo electrónico del usuario.</param>
+            <param name="contraseña">Contraseña del usuario.</param>
+            <returns>Devuelve 1 si el inicio de sesión es correcto, 0 en caso incorrecto.</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.RegistroBD(APPProyecto.MVC.Usuario)">
+            <summary>
+            Metodo que registra un usuario
+            Comprueba si el nombre de usuario ya existe, si existe no lo registra
+            </summary>
+            <param name="user">Objeto Usuario a registrar</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.CambiarContra(System.String,System.String)">
+            <summary>
+            Metodo que cambia la contraseña del usuario
+            </summary>
+            <param name="correo">Correo del usuario al que cambiarle la contraseña</param>
+            <param name="contra">Nueva contraseña</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.tipoRol(System.String)">
+            <summary>
+            Metodo que devuelve el rol del usuario
+            </summary>
+            <param name="correo">Correo del usuario</param>
+            <returns>Devuleve 0 si es un usuario normal, 1 si es admin, 2 si es Super-Admin</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getUser(System.String)">
+            <summary>
+            Metodo que devuelve un objeto Usuario
+            </summary>
+            <param name="correo">Correo del usuario a buscar</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getTotalUsers">
+            <summary>
+            Metodo que devuelve una lista con todos los usuarios
+            </summary>
+            <returns>Devuelve una lista con todos los usuarios</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.CambiarNombre(System.String,System.String)">
+            <summary>
+            Metodo que cambia el nombre del usuario y comprueba que ese nombre no este en uso
+            Actualiza el nombre en la tabla usuarios, comentarios y peticiones.
+            No cambia en la tabla betados ya que un usuario betado no puede cambiar el nombre porque no puede acceder
+            </summary>
+            <param name="correo">Correo del usuario que quiere cambiar el nombre</param>
+            <param name="nuevoNombre">Nuevo nombre</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getPregunta(System.String)">
+            <summary>
+            Metodo que devuelve la pregunta de seguridad de un usurio.
+            </summary>
+            <param name="corr">Correo del usuario</param>
+            <returns>Devuelve la pregunta de seguridad</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getRespuesta(System.String)">
+            <summary>
+            Metodo que devuelve la respuesta de seguridad de un usurio.
+            </summary>
+            <param name="corr">Correo del usuario</param>
+            <returns>Devuelve la respuesta de seguridad</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.InsertatPeli(APPProyecto.PaginaVentana.Movie)">
+            <summary>
+            Inserta una pelicula en la tabla Peliculas
+            </summary>
+            <param name="peli">Objeto Movie a insertar</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.EraseUser(System.String)">
+            <summary>
+            Metodo que mueve un usuario de la tabla Usuarios a la tabla Borrados
+            </summary>
+            <param name="correo"></param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.BuscarPeliBD(System.String)">
+            <summary>
+            Metodo que devuelve una pelicula de la tabla Peliculas
+            </summary>
+            <param name="titulo">Titulo de la pelicula a buscar</param>
+            <returns>Devuleve un objeto Movie con la pelicula buscada</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.TotalPeliculas">
+            <summary>
+            Metodo que devuelve el numero de todos los registros de la tabla Peliculas
+            </summary>
+            <returns>Numero total de registros de la tabla</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.InfoUsuarioPelicula(System.String,System.String)">
+            <summary>
+            Obtiene la informacion del estado de una pelicula de un usuario en concreto buscado por el titulo y el correo
+            </summary>
+            <param name="correo">Correo del usuario</param>
+            <param name="titulo">Titulo de la pelicula</param>
+            <returns>Devuelve el estado</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getListasUser(System.String,System.String)">
+            <summary>
+            Metodo que obtiene las listas de peliculas de un usuario dependiendo de si son vistas, pendientes o favoritas.
+            </summary>
+            <param name="correo">Correo del usuario</param>
+            <param name="estado">Estado de la pelicula (Vista, pendiente...)</param>
+            <returns>Devuelve una lista con las calificaciones</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getCaliUser(System.String,System.String)">
+            <summary>
+            Metodo que devuelve la calificacion que el usuario a dado de una pelicula en concreto
+            </summary>
+            <param name="correo">Correo del usuario</param>
+            <param name="pelicula">Titulo de una pelicula</param>
+            <returns>devuelve la calificaion de una pelicula de un usuario</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.ModEstadoPeli(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Metodo que modifica el estado de una pelicula de un usuario en concreto.
+            Si el registro de la pelicula no existe, se añade a la tabla
+            </summary>
+            <param name="correo">Correo del usuario</param>
+            <param name="titulo">Titulo de la pelicula</param>
+            <param name="est">Estado de la peliculas</param>
+            <param name="gener">Genero de la pelicula</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.ModCaliUser(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Metodo que modifica la calificación del usuario de una pelicula.
+            </summary>
+            <param name="correo">Correo del usuarios</param>
+            <param name="titulo">Titulo de la pelicula</param>
+            <param name="calificacion">Nueva calificación</param>
+            <param name="genero">Genero de la pelicula</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getNumVotos(System.String)">
+            <summary>
+            Metodo que devuelve el numero de personas que han votado por la pelicula
+            </summary>
+            <param name="titulo">Titulo de la pelicula</param>
+            <returns>Numero total de votos de personas vieron la pelicula</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getValoraciones(System.String)">
+            <summary>
+            Metodo que devuelve una lista con todas las calificaciones de la pelicula
+            </summary>
+            <param name="titulo">Titulo de la pelicula</param>
+            <returns>Lista de valoraciones</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getComentarios(System.String)">
+            <summary>
+            metodo que devuelve una lista con los comentarios de una pelicula en concreto
+            </summary>
+            <param name="titulo">Titulo de la pelicula</param>
+            <returns>Lista de obetos comentario</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getComentariosUser(System.String)">
+            <summary>
+            metodo que devuelve una lista con los comentarios de un usuario en concreto
+            </summary>
+            <param name="correo">Correo del usuario</param>
+            <returns>Lista de objetos Comentario de un usuario</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.InsertComentario(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Inserta un comentario en la tabla Cometario
+            </summary>
+            <param name="titulo">Titulo de la pelicula</param>
+            <param name="correo">Correo del usuario</param>
+            <param name="nombre">Nombre del usuario (puede ser anónimo)</param>
+            <param name="comentario">Comentario de la pelicula</param>
+            <param name="fechaHora">Fecha en la que se ha insertado</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.EraseComentario(System.String,System.String)">
+            <summary>
+            Metodo que borra un comentario específico de un usuario
+            </summary>
+            <param name="nombre">Nombre del usuario</param>
+            <param name="comen">Comnetario</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.InsertarAvatar">
+            <summary>
+            Metodo que inserta en la base de datos una imagen seleccionada por el usuario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.CargarAvatar(System.Int32)">
+            <summary>
+            Metodo que devuelve el avatar de un usuario por el id de su campo avatar.
+            </summary>
+            <param name="idUser">ID del avatar</param>
+            <returns>Devuelve una imagen del avatar</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.AvatarTotal">
+            <summary>
+            Metodo que devuleve todos los avatares
+            </summary>
+            <returns>Lista de Imagenes en modo BitmapImage de todos los avatares de la tabla Avatar</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.cambiarAvatar(System.Int32,APPProyecto.MVC.Usuario)">
+            <summary>
+            Actualiza el avatar del usuario
+            </summary>
+            <param name="id">ID del avatar seleccionado</param>
+            <param name="user">usuario que cambia el avatar</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.SelecIdesAvatar">
+            <summary>
+            Selecciona todos los ids de los avatares
+            </summary>
+            <returns>Lista numerica con los ids de avatares</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getGenero(APPProyecto.MVC.Usuario,System.Int32)">
+            <summary>
+            Metodo que obtiene los generos de la tabla PelisEstado
+            </summary>
+            <param name="user">usuario actual</param>
+            <param name="opc">Estado de la pelicula</param>
+            <returns>Lista de string con los generos</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getGeneroTodos(APPProyecto.MVC.Usuario,System.Int32)">
+            <summary>
+            Obtiene la lista de géneros de las películas en una lista específica (pendientes, vistas o favoritas) para un usuario.
+            </summary>
+            <param name="user">Usuario actual</param>
+            <param name="opc">Estado de la pelicula.</param>
+            <returns>Lista de géneros de las películas segun un estado</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.getGenerosPorPopu(System.String)">
+            <summary>
+            Obtiene los id de los generos de la api TMDB
+            </summary>
+            <param name="popu">genero tipo string (Comedia, Terror...)</param>
+            <returns>devuelve el ID del genero buscdo</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.InsertarPeticion(System.String,System.String,System.String,System.String)">
+            <summary>
+            Metodo que inserta la Peticion de un usuario
+            </summary>
+            <param name="correo">Correo del solicitante</param>
+            <param name="nick">Nombre del solicitante</param>
+            <param name="asunto">Asunto del mensaje</param>
+            <param name="mensaje">Peticion</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.BorrarPeticion(System.String,System.String)">
+            <summary>
+            MEtodo que elimina una peticion
+            </summary>
+            <param name="correo">Correo del solicitante</param>
+            <param name="mensaje">Petición</param>
+        </member>
+        <member name="M:APPProyecto.MVC.BD.TotalPeticion">
+            <summary>
+            Metodo que obtiene todos las peticiones 
+            </summary>
+            <returns>Lista de objetos Petición</returns>
+        </member>
+        <member name="T:APPProyecto.MVC.Comentario">
+            <summary>
+            Objeto comentario
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MVC.omdb">
+            <summary>
+            Clase con la que se gestionará las consultas a la API OMDB
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MVC.omdb.ConexionApi(System.String)">
+            <summary>
+            Realiza una conexión a una API.
+            </summary>
+            <param name="apiUrl">URL de la API a la que se va a realizar la conexión.</param>
+            <returns>Devuleve la respuesta de la API como una cadena.</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.omdb.PeliEspecifica(System.String)">
+            <summary>
+            Obtiene información detallada de una película específica mediante su titulo.
+            </summary>
+            <param name="cad">Título de la película</param>
+            <returns>Devuelve un objeto Movie con la información de la pelicula.</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.omdb.PeliculasAmplias(System.String)">
+            <summary>
+            Busca varis peliculas que contngan la cadena pasada por parametro en el titulo.
+            </summary>
+            <param name="cadena">Cadenala cual debe estar en el titulo.</param>
+            <returns>devuelve una lista de objetos Movie con la información de las películas encontradas.</returns>
+        </member>
+        <member name="T:APPProyecto.MVC.Peticion">
+            <summary>
+            Clase con la que se gestionarán las peticiones
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MVC.Peticion.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            Único onstructor.
+            </summary>
+            <param name="correo">Correo del usuario</param>
+            <param name="nick">Nombre del usuario</param>
+            <param name="asunto">Asunto de la peticion</param>
+            <param name="mensaje">Petición</param>
+        </member>
+        <member name="T:APPProyecto.MVC.TMDB">
+            <summary>
+            Clase con las que se gestionará las peticiones a la API TMDB
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MVC.TMDB.ConexionApi(System.String)">
+            <summary>
+            Realiza una conexión a una API y obtiene la respuesta como una cadena de texto.
+            </summary>
+            <param name="apiUrl">URL de la API.</param>
+            <returns>Devuelve la respuesta de la API como una cadena de texto.</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.TMDB.BuscarPorGenero(System.String)">
+            <summary>
+            Busca peliculas aleatorias por genero
+            Obtiene el total de las paginas, selecciona una pagina aleatoria
+            Selecciona la pelicula
+            Comprueba que esta en la api omdb
+            Si existe devuelve la pelicula
+            </summary>
+            <param name="genero">Genero a buscar</param>
+            <returns>Objeto Movie con la info de la pelicula</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.TMDB.BuscarPorAnio(System.String)">
+            <summary>
+            /// Busca peliculas aleatorias por año
+            Obtiene el total de las paginas, selecciona una pagina aleatoria
+            Selecciona la pelicula
+            Comprueba que esta en la api omdb
+            Si existe devuelve la pelicula
+            </summary>
+            <param name="anio">año a buscar</param>
+            <returns>Devuleve objeto Moovie con la información de la pelicula</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.TMDB.IdDirector(System.String)">
+            <summary>
+            Metodo que busca en la ficha de un director buscando por su nombre y devuelve el id
+            </summary>
+            <param name="director">Nombre del director</param>
+            <returns>Devuleve el ID del director</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.TMDB.MismoDirector(System.Int32)">
+            <summary>
+            Metodo que busca una pelicula de un director, buscando por el ID del director
+            </summary>
+            <param name="id">ID del director</param>
+            <returns>Objeto Movie con la info de una pelicula</returns>
+        </member>
+        <member name="M:APPProyecto.MVC.TMDB.BuscarEnOMDB(System.String)">
+            <summary>
+            Metodo que comprueba si la pelicula buscada existe en la api OMDB
+            </summary>
+            <param name="titulo">Titulo de la pelicula</param>
+            <returns>Objeto Movie con la info de la Pelicula</returns>
+        </member>
+        <member name="T:APPProyecto.MVC.Usuario">
+            <summary>
+            Clase con la que se gestionan los datos de un usuario
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Movie">
+            <summary>
+            Clase con la que se administrarán las peliculas
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Movie.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructor con tres parámetros
+            Este se usará para los user controls
+            </summary>
+            <param name="titulo">Titulo de la pelicula</param>
+            <param name="poster">Imagen de la pelicula</param>
+            <param name="gen">Genero de la pelicula</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Movie.#ctor(System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Constructor final de la pelicula
+            Este se usará para la información detallada
+            </summary>
+            <param name="titulo">Titulo de la pelicula</param>
+            <param name="anio">Año de la pelicula</param>
+            <param name="director">Director de la pelicula</param>
+            <param name="reparto">Resparto de la pelicula</param>
+            <param name="sinopsis">Sinopsis de la pelicula</param>
+            <param name="calificacion">Calificación de la pelicula</param>
+            <param name="imagen">Imagen de la pelicula</param>
+            <param name="dureacion">Duracion de la pelicula</param>
+            <param name="genero">Genero de la pelicula</param>
+            <param name="pais">Pais de la pelicula</param>
+            <param name="premios">Premios de la pelicula</param>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Administradores.Administracion">
+            <summary>
+            Página que se utilizará tanto por el administrador como el Super-Administrador
+            Cambia ligeramente dependiendo del rol
+            </summary>
+            <summary>
+            Administracion
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.#ctor(APPProyecto.MVC.Usuario)">
+            <summary>
+            Constructor de la clase Administracion.
+            Determina si el admin es normal o super
+            Crea las columnas del datagrid de usuarios y comentarios.
+            Crea los hilos necesarios para borrar usuario y comentarios seleccionados
+            </summary>
+            <param name="us">Usuario actual.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.EsSuper">
+            <summary>
+            Si el usuario es Super-Administrador ocultará los botones para poder añadir o eliminar administrador
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.CrearDataGrid">
+            <summary>
+            Metodo que crea las columnas de los data grid
+            Datagrid usuarios: añade las columnas Correo, Nombre y Rol
+            Datagrid comentarios: añade las columnas Nombre y Comentario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.DataUsuarios">
+            <summary>
+            Añade al datagrid de usuarios todos los usuarios y ademas crea uno nuevo con el nombre Anónimo,
+            este se utilizará para observar los comentarios de las personas anónimas.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.dataUsers_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Evento que llama la metodo ActualizarComent
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.ActualizarComent">
+            <summary>
+            Cuando se pulsa en un usuario se mostrará todos sus comentarios de todas las peliculas en el datagrid de comentarios
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddUser_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que llama al metodo VentanaADD
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.VentanaADD">
+            <summary>
+            Metodo que genera una nueva ventana para registrar un nuevo usuario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.btnApp_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que mostrará una nueva ventana con el contenido de la página principal de la aplicacion, ya que un administrador
+            también podrá buscar peliculas como un usuario normal.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseComent_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que lanza el hilo para eliminar un comentario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseUser_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que lanza un hilo para eliminar un usuario.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.BorrarUser">
+            <summary>
+            Hilo que elimina un usuario
+            Comprueba que se seleccione un registro del data grid de usuarios
+            Comprueba que si el usuario seleccionado es el super admin mostrará un mensaje de error (ya que no se podrá eliminar)
+            Comprueba que si el user seleccionado es admin y el user actual es admin mostrara error (ya que un admin solo 
+            lo podrá eliminar el Super-Admin)
+            Si todo es correcto eliminará el usuario (no lo elimina, lo mueve a la tabla betados)
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.BorrarComent">
+            <summary>
+            Hilo que elimina un comentario
+            Comprueba que se haya seleccionado primero un usuario (para que se muestren los comentarios)
+            Comprueba que se haya seleccionado un comentario
+            Si todo es correcto elimina el comentario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.btnEraseAdmin_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que inicia al HiloBorrar 
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.btnAddAdmin_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que llama al metodo VentanaADD
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.btnPeticiones_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que muestra una nueva ventana donde se mostrarán las peticines de los usuarios para resolverlas.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.CerrarSesion_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que cierra sesion
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Administracion.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Administradores.Peticiones">
+            <summary>
+            Página donde se gestionan las peticiones del usuario
+            </summary>
+            <summary>
+            Peticiones
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Peticiones.ObtenerPeticiones">
+            <summary>
+            Metodo que obtiene todas las peticiones de la base de datos
+            Crea un user control por cada peticion
+            Actualiza el grid de peticiones
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Peticiones.ActualizarPeti">
+            <summary>
+            Actualiza el grid de peticiones
+            
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Peticiones.UcPeticion_MandarID(System.Object,System.Int32)">
+            <summary>
+            Evento que recoge el ID de la peticion.
+            Busca la peticion en la lista y la elimina
+            Actualiza el grid de peticiones
+            </summary>
+            <param name="sender"></param>
+            <param name="id"></param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Peticiones.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Administradores.Ventana">
+            <summary>
+            Ventana que almacenará la página principal de la aplicación
+            para que los administradores puedan buscar peliculas
+            Se debe utilizar una ventana WPF por un tema de navegación.
+            </summary>
+            <summary>
+            Ventana
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Administradores.Ventana.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Ajustes.Ajustes">
+            <summary>
+            Página de ajustes
+            </summary>
+            <summary>
+            Ajustes
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Ajustes.Ajustes.ColocarAvatar(APPProyecto.MVC.Usuario)">
+            <summary>
+            Metodo que carga el avatar actual del usuario actual.
+            </summary>
+            <param name="user"></param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnNomCambiar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que cambia el nombre del usuario.
+            Comprueba que el texto no este en blanco y que no sea el nombre actual.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnCambiar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que abre una nueva ventana con todos los avatares de la vase de datos para que el usuario pueda cambiarlo a placer.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnRegresar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que te devuelve a la página anterior
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnIngresar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que nos permite añadir un avatar a la base de datos
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Ajustes.Ajustes.btnPeticion_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento que nos permite realizar una petición a los administradores
+            </summary>m>
+            <param name="e"></param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Ajustes.Ajustes.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Entrar.Buscador">
+            <summary>
+            Página principal de la aplicación.
+            En ella se encuentran cuatroa apartados.
+            Apartado Usuario: Muestra la información del usuario como el nombre y el avatar además de un boton de opciones
+            Apartado Recomendación: Muestra peliculas recomendadas segun las preferencias del usuario.
+            Apartado Buscador: Muestra un textbox donde se insertará una cadena la cual se utilizará para buscar peliculas en la api OMDB.
+            Apartado Comparación: Muetsra dos botones para comparar peliculas o para desselecionar las peliculas previamente seleccionadas.
+            </summary>
+            <summary>
+            Buscador
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.#ctor(APPProyecto.MVC.Usuario)">
+            <summary>
+            Contructor de la página, crea el menu contextual, coloca los datos del usuario actual y busca las recomendaciones.
+            Oculta el grid de comprobar peliculas porque no se ha sellecionado ninguna.
+            </summary>
+            <param name="usuario">Objeto Usuario que contiene el usuario que ha hecho login.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.Bienvenida(APPProyecto.MVC.Usuario)">
+            <summary>
+            Da la bienvenida al usuario actual y muestra su avatar.
+            </summary>
+            <param name="user">Usuario actual</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.UcPelicula_MandarPelicula(System.Object,System.String)">
+            <summary>
+            Controla el evento de clic derecho del user control para seleccionar o desseleccionar la pelicula.
+            </summary>
+            <param name="titulo">Titulo de la pelicula del user control.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.UcPelicula_ManejarMovie(System.Object,APPProyecto.PaginaVentana.Movie)">
+            <summary>
+            Controla el vento de click izquierdo del user control, muestra una pagina con la información detallada de la pelicula del user control.
+            </summary>
+            <param name="peli">Titulo de la pelicula almacenada en el user control.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.BtnBuscador_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que busca peliculas en la api OMDB dependiendo de la cadena de texto escrita previamente.
+            Primero comprueba que el textbox no esté vacío.
+            Busca una lista de peliculas en la api.
+            Por cada pelicula en la lista crea un user control, suscribe sus eventos y los almacena en el grid
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.ToggleButton_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que muestra el menu contextual en la posición del raton
+            </summary>
+            <param name="sender">El objeto que envía el evento.</param>
+            <param name="e">Los datos del evento.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que elimina las peliculas seleccionadas para la comprobacion.
+            Como no hay peliculas seleccionadas oculta este apartado.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Boton que muestra la página de comprobacion de peliculas con las peliculas seleccionadas previaente
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.MisPelisClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que muestra la pagina de las peliculas del usuario actual.
+            Este metodo se invoca cuando se pulsa el boton Mis Peliculas del apartado del usuario o en el menu contextual
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.AjustesClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que muestra la página de opciones
+            Este metodo se invoca cuando se pulsa el boton Ajustes del apartado del usuario o en el menu contextual
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.CerrarSesionClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que funciona diferente dependiendo del rol.
+            Si es un usuario normal mostrará la página de Bloqueo la cual mostrará la página de Login.
+            Si es un administrador se cerrará la ventana.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.RecomendarPelis">
+             <summary>
+             Metodo que recomienda peliculas al usuario usando el siguiente criterio:
+            recomienda peliculas del genero favorito del usuario que no haya visto
+            si no hay mas de X registros recomendara peliculas más repetidas no vistas favoritas de entre todos los usuarios
+            si no hay mas de X registros recomendara peliculas más repetidas no vistas por el usuario y vistas de entre todos los usuarios
+            si no hay más de X registros recomendará peliculas no vistas del año actual y del anterior
+            si ha visto todas las peliculas anteriores recomendará peliculas no vistas de cualquier época.
+            
+             Una vez obtenidas las peliculas creará los usercontrols y los incorporará en su apartado.
+             
+             </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.GeneroTrim(System.String)">
+            <summary>
+            Obtiene el primer género de el string de generos pasado por parámetro.
+            </summary>
+            <param name="cadena">Cadena de géneros.</param>
+            <returns>Devuelve el primer género</returns>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.GenPopular(System.Collections.Generic.List{System.String})">
+            <summary>
+            Obtiene el genero más repetido de la lista de géneros.
+            </summary>
+            <param name="lista">Lista de generos.</param>
+            <returns>Devuelve el genero más repetido</returns>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(APPProyecto.MVC.TMDB,System.String)">
+            <summary>
+            Busca y devuelve una lista de cinco películas populares del género pasado por parámetro.
+            </summary>
+            <param name="popu">Género a buscar.</param>
+            <returns>Devuelve una lista de cinco peliculas</returns>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.BuscaCinco(APPProyecto.MVC.TMDB,System.Int32)">
+            <summary>
+            Busca y devuelve una lista de cinco películas buscada por un año pasado por parámetro.
+            </summary>
+            <param name="anio">Año que se ha de buscar</param>
+            <returns></returns>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.MenuContextual">
+            <summary>
+            Metodo que crea el menu contextual y le añade cuatro opciones.
+            Mis peliculas
+            Ajustaes
+            Cerrar Sesión
+            Manual
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.Manual_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que muestra el pdf del manual.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Entrar.Buscador.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas">
+            <summary>
+            Pagina que muestra las peliculas pendientes, vistas y favoritas del usuario actual.
+            </summary>
+            <summary>
+            MisPeliculas
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.UcPelicula_ManejarMovie(System.Object,APPProyecto.PaginaVentana.Movie)">
+            <summary>
+            Evento que se genera cunado se pulsa clic izquierdo sobre la pelicula.
+            Mostrará una página con la información detallada de la pelicula almacenada en el user control
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.RellenarGrid">
+            <summary>
+            Almacena en cada lista las peliculas del usuario corrspondiente a ellas 
+            Busca cada pelicula en la api omdb
+            Invoca los metodos para colocar las peliculas en su apartado concreto
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.GPendiente">
+            <summary>
+            Coloca las películas pendientes del usuario en la interfaz creando user controls
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.GVista">
+            <summary>
+            Coloca las películas vistas del usuario en la interfaz creando user controls
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.GFavorita">
+            <summary>
+            Coloca las películas favoritas del usuario en la interfaz creando user controls
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.MisPeliculas.MisPeliculas.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Peliculas.Comparar">
+            <summary>
+            Página que muestra la información de varias peliculas.
+            </summary>
+            <summary>
+            Comparar
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Comparar.#ctor(System.Collections.Generic.List{System.String})">
+            <summary>
+            Constructor de la clase Comparar.
+            Inicializa la interfaz de usuario y la lista de títulos de películas con la lista proporcionada.
+            Crea instancias de las clases Movie, omdb y BD utilizadas en la comparación de películas.
+            Obtiene información detallada de las películas llamando al método ObtenerPelis().
+            </summary>
+            <param name="pelis">Lista de títulos de películas a comparar.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Comparar.ObtenerPelis(System.Collections.Generic.List{System.String})">
+            <summary>
+            Metodo que obtiene la informacion de cada pelicula de la lista pelis, las peliculas se consultarán en la base de datos, en caso de que
+            exista, si no existe se buscará en la api OMDB y se guarda en la base de datos.
+            Se invoca al metodo ColocarPoster para mostrar las imágenes de las peliculas
+            Se invoca al metodo ColocarDatos para mostrar la informacion de las peliculas
+            </summary>
+            <param name="pelis">Lista de títulos de películas para obtener información.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Comparar.ColocarPoster(System.Collections.Generic.List{APPProyecto.PaginaVentana.Movie})">
+            <summary>
+            Coloca las imágenes de póster de las películas.
+            Las imagenes se colocarán en una posición en concreto
+            </summary>
+            <param name="peliculas">Lista de objetos Movie, los cuales tienen la información de las peliculas a comprara.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Comparar.ColocarDatos(System.Collections.Generic.List{APPProyecto.PaginaVentana.Movie})">
+            <sumary>
+            Coloca la información de cada pelicula en su posición correcta.
+            Ademas se asigann tootips con el titulo de la pelicula a cada campo por si no sabemos a que pelicula pertenece.
+            </sumary>
+            <param name="peliculas">Lista de objetos Movie que representan las películas a mostrar.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Comparar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Peliculas.Informacion">
+            <summary>
+            Página que muestra la información de una única película.
+            </summary>
+            <summary>
+            Informacion
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.#ctor(APPProyecto.PaginaVentana.Movie,APPProyecto.MVC.Usuario)">
+            <summary>
+            Constructor de la clase Informacion.
+            Coloca la información de la película.
+            Coloca la informacion del usuario. (Vista, pendiente... y la calificacion)
+            Coloca la calificación total de todos los usuarios de la aplicación.
+            Generá un hilo que busca el ID del director, y busca todas las peliculas donde haya trabajado, esto incluye como guionista, director, actor...
+            Coloca el apartado donde el usuario podrá insertar los comentarios de la pelicula
+            Coloca los comentarios que cada usuario ha realizado en la pelicula.
+            </summary>
+            <param name="movie">Objeto Movie el cual contiene la información de la pelicula</param>
+            <param name="us">Objeto Usuario el cual contiene la información del usuario</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.ColocInfoPeli">
+            <summary>
+            Metodo que coloca la información de la pelicula uscada. (Director, reparto, año...)
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.ColocCaliUser">
+            <summary>
+            Coloca la información del usuario en cada combobox, si el usuario no interactuado con la pelicula mostrará la opción por defecto.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.ColocCaliGrupo">
+            <summary>
+            Calcula la calificación del total de usuarios para esta pelicula en concreto
+            Obtiene el numero total de votos y la calificación de cada usuario (individualmente) calcula la media y muestra el resultado.
+            Se controla que el divisor no sea 0
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.ColocEstPeli">
+            <summary>
+            Coloca el estado de la pelicula del usuario actual en el combobox.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.btnPublicar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Metodo que inserta un comentario en la base de datos.
+            Comprueba si el checkbox esta activado en este caso el nombre de usuario será Anónimo
+            Por ultimo inserta el comentario con el titulo de la pelicula, el correo del usuario, el nombre y la fecha actual en un formato en concreto.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.EjecutarHilo">
+            <summary>
+            Ejecuta un hilo para obtener las peliculas donde el director haya trabajado utilizando la API TMDB
+            Se obtendrá el id del director de la pelicula actual, buscando en la API por el nombre del director.
+            Utilizando el ID obtenido se realizará una busqueda de las peliculas
+            Si el ID no se encuentra se ocultará este apartado
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.crearUC(System.Collections.Generic.List{APPProyecto.PaginaVentana.Movie})">
+            <summary>
+            Crea una serie de UserControls de las peliculas obtenidas con el mismo director y los coloca en la interfaz de usuario
+            </summary>
+            <param name="mismodir">Lista de películas del mismo director.</param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.UcPelicula_ManejarMovie(System.Object,APPProyecto.PaginaVentana.Movie)">
+            <summary>
+            Evento de la picula si se hace clic en el se creará una nueva página con la información de la pelicula del user control.
+            </summary>
+            <param name="peli">Objeto Movie que contiene la pelicula del user control..</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:APPProyecto.PaginaVentana.Peliculas.Informacion.comboCali_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)" -->
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.comboEstado_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Cada vez que se camia la selección del combobox del estado de la pelicula se actualizará el registro en la base de datos
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.ActualizarCaliUser">
+            <summary>
+            Actualiza el porcentaje de la calificacion grupal en el apartado de calificación.
+            Obtiene el numero de votos totales y los votos individuales de todos los usuarios y hace la media.
+            
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.ColocComent">
+            <summary>
+            Coloca los comentarios de los usuarios en su apartado
+            Limpia el contenido.
+            Crea UserControls por cada comentario obtenido
+            Los agrega al grid y los separa usando un separator
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Peliculas.Informacion.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo">
+            <summary>
+            Lógica de interacción para PeliculaInfo.xaml
+            </summary>
+            <summary>
+            PeliculaInfo
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Pelicula.PeliculaInfo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Principal.Bloqueo">
+            <summary>
+            Página utilizada para bloquear el cirre de sesion, es decir,
+            Cuando se cierra sesion en la aplicación se carga esta página la cual unicamente cargará la pagina de login,
+            esto es para evitar que cuando el usuario utilce el atajo de escritorio alt + flecha izq pueda volver a la cuenta anterior.
+            </summary>
+            <summary>
+            Bloqueo
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Bloqueo.#ctor">
+            <summary>
+            El contructor lo unico que hace es invocar al metodo Bloqueador una vez que esta página se ha cargado correctamente.
+            Debemos esperar a que cargue la página porque puede saltar error.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Bloqueo.Bloqueador(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            metodo que carga la página de login
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Bloqueo.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Principal.Olvidada">
+            <summary>
+            Pagina utilizada para el cambio de contraseña del usuario
+            </summary>
+            <summary>
+            Olvidada
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Olvidada.FormatoContra(System.String)">
+            <summary>
+            Comprueba que el texto pasado por parámetro cumple los requisitos de la contraseña
+            </summary>
+            <param name="texto">Contraseña a verificar</param>
+            <returns>
+              <c>true</c> devuelve true si la contraseña tiene un minimo de 6 carácteres, almenos una minuscula y almenos una mayuscula,
+              si no lo cumple devolverá false.
+            </returns>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Olvidada.txtCorreo_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Por cada vez que se cambia el campo del Correo electronico realizará una consulta a la base de datos, si el correo es correcto
+            mostrará los campos de la pregunta de seguridad, en caso incorrecto los ocultará no solo la pregunta de seguridad sino también los
+            campos de contraseña y el boton para cambiarla.
+            </summary>
+            <param name="sender">.</param>
+            <param name="e"></param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Olvidada.txtContraSegura_PasswordChanged(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Comprueba si los campos de la contraseña coinciden, en caso correcto mostrará el botón para el cambio de contraseña.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Olvidada.btnCambiar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Llama al metodo CambiarContra de la base de datos para realizar el cambio de contraseña.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Olvidada.txtRespuesta_TextChanged(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Cada vez que cambia el contenido del campo de la respuesta a la pregunta de seguridad se comprobará si la respuesta es correcta
+            en ese caso mostraá los cmpos de contraseña para realizar el cambio y en caso incorrecto los ocultará.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Principal.Olvidada.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.PaginaVentana.Primera">
+            <summary>
+            Página utilizada para el registro, el login y el cambio de contraseña de usuarios
+            </summary>
+            <summary>
+            Primera
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Primera.#ctor">
+            <summary>
+            constructor de la página donde se instancia la base de datos
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Primera.btnGenerar_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Genera una contraseña con requisitos específicos y la asigna a los campos de contraseña en la interfaz.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Primera.btnRegistro_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Maneja el evento de clic en el botón de registro, valida los datos de registro y realiza el registro del usuario.
+            Comprueba que los campos no estén vacios
+            Comprueba que el correo no este en la lista de betados, en caso que este betado mostrará un aviso
+            Comprueba que la contraseña tenga el formato correcto, en caso que no lo cumpla mostrará un aviso
+            Comprueba que la contraseña coincida en ambos campos por seguridad, en caso de que no coincida mostrará un error
+            Si todo lo anterior es correcto registrará un nuevo usuario
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Primera.FormatoContra(System.String)">
+            <summary>
+            Comprueba que el texto pasado por parámetro cumple los requisitos de la contraseña
+            </summary>
+            <param name="texto">Contraseña a verificar</param>
+            <returns>
+              <c>true</c> devuelve true si la contraseña tiene un minimo de 6 carácteres, almenos una minuscula y almenos una mayuscula,
+              si no lo cumple devolverá false.
+            </returns>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Primera.btnLogin_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Evento del boton de inicio de sesión
+            Comprueba que los campos no estén vacios, si lo están mostrará un aviso.
+            Compruba que el usuario que se quiere registrar no esté en la lista de betados.
+            Si el usuari es correcto filtrará por tipo de rol, usuario, administrador o superadministrador
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Primera.btnOlvido_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Boton que maneja el olvido de contraseña.
+            Mostraá una nueva pagina donde se podrá cambiar la contraseña.
+            </summary>
+        </member>
+        <member name="M:APPProyecto.PaginaVentana.Primera.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:APPProyecto.Resource1">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.ajustes">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.añadiradmin">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.añadiruser">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.cambiarcontra">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.cerrarsesion">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.eliminaradmin">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.eliminarcoment">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.eliminaruser">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.FilmotecaCLMSQLite">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.Login">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.logo">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.manual">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.pelicula">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.peticion">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.Registro">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="P:APPProyecto.Resource1.Rotulo">
+            <summary>
+              Busca un recurso adaptado de tipo System.Byte[].
+            </summary>
+        </member>
+        <member name="T:APPProyecto.MainWindow">
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:APPProyecto.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

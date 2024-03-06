@@ -1,0 +1,121 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows10.0.22000.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <AssemblyName>FilmotecaCLMInstaller</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Resource1.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ajustes.png" />
+    <None Remove="Resources\añadiradmin.PNG" />
+    <None Remove="Resources\añadiruser.PNG" />
+    <None Remove="Resources\cambiarcontra.png" />
+    <None Remove="Resources\cerrarsesion.png" />
+    <None Remove="Resources\eliminaradmin.PNG" />
+    <None Remove="Resources\eliminarcoment.PNG" />
+    <None Remove="Resources\eliminaruser.PNG" />
+    <None Remove="Resources\FilmotecaCLM.pdf" />
+    <None Remove="Resources\FilmotecaCLMSQLite.db" />
+    <None Remove="Resources\Login.png" />
+    <None Remove="Resources\logo.PNG" />
+    <None Remove="Resources\manual.png" />
+    <None Remove="Resources\notfound.png" />
+    <None Remove="Resources\pelicula.png" />
+    <None Remove="Resources\peticion.png" />
+    <None Remove="Resources\Registro.png" />
+    <None Remove="Resources\Rotulo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EWSoftware.SHFB.NETFramework" Version="4.8.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\ajustes.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\añadiradmin.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\añadiruser.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\cambiarcontra.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\cerrarsesion.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\eliminaradmin.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\eliminarcoment.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\eliminaruser.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="Resources\FilmotecaCLMSQLite.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\FilmotecaCLM.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Login.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\logo.PNG">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\manual.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\notfound.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\pelicula.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\peticion.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Registro.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Rotulo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PaginaVentana\Prueba\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+</Project>

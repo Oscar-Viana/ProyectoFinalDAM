@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="APPProyecto.MisControles.Administracion.UCPeticiones"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:APPProyecto.MisControles.Administracion"
+             mc:Ignorable="d" 
+             d:DesignHeight="120" d:DesignWidth="400">
+    <Grid>
+        <StackPanel x:Name="stackPadre" Orientation="Horizontal" Height="Auto">
+            <!-- Primer StackPanel -->
+            <StackPanel x:Name="stackPrimer" Width="Auto">
+                <Label x:Name="lblCorreo" />
+                <Label x:Name="lblNombre" />
+                <Button Content="Resuelto" Click="Button_Click"/>
+            </StackPanel>
+
+            <!-- Segundo StackPanel -->
+            <StackPanel x:Name="stackSegun" Width="Auto" Margin="10">
+                <Label x:Name="lblAsunto" Margin="0, 0, 0, 10"/>
+                <TextBox x:Name="txtPeticion" TextWrapping="Wrap" AcceptsReturn="True" Width="193" Height="99" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

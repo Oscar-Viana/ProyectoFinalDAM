@@ -1,0 +1,40 @@
+﻿<Page x:Class="APPProyecto.PaginaVentana.Principal.Olvidada"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:APPProyecto.PaginaVentana.Principal"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="300"
+      Title="Olvidada"
+      ShowsNavigationUI="True">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Border Grid.Column="1" Grid.Row="1" BorderBrush="Yellow" BorderThickness="3" CornerRadius="10">
+        <ScrollViewer>
+            <Grid Background="MidnightBlue">
+                <StackPanel Orientation="Vertical">
+                    <Image Source="/Resources/cambiarcontra.png" Margin="0, 0, 0, 30"/>
+                    <Label Content="Ingresa Correo Electrónico" Margin="0, 0, 0, 15"/>
+                    <TextBox x:Name="txtCorreo" Margin="10, 0, 10, 15" TextChanged="txtCorreo_TextChanged" />
+                    <Label x:Name="lblPregu" Content="Pregunta de seguridad:" Margin="10, 0, 10, 15" Visibility="Hidden"/>
+                    <Label x:Name="lblPregunta" Margin="10, 0, 10, 15" Visibility="Hidden"/>
+                    <Label x:Name="lblRespuesta" Content="Respuesta:" Margin="10, 0, 10, 15" Visibility="Hidden"/>
+                    <PasswordBox x:Name="txtRespuesta" Margin="10, 0, 10, 15" Visibility="Hidden" PasswordChanged="txtRespuesta_TextChanged" />
+                    <Label x:Name="lblCont" Content="Introduce una nueva contraseña:" Margin="10, 0, 10, 15" Visibility="Hidden"/>
+                    <PasswordBox x:Name="txtContra" Margin="10, 0, 10, 15" Visibility="Hidden"/>
+                    <Label x:Name="lblRepiite" Content="Repite la contraseña:" Margin="10, 0, 10, 15" Visibility="Hidden"/>
+                    <PasswordBox x:Name="txtContraSegura" Margin="10, 0, 10, 15" Visibility="Hidden" PasswordChanged="txtContraSegura_PasswordChanged" />
+                    <Button x:Name="btnCambiar" Content="Cambiar contraseña"  Visibility="Hidden" Click="btnCambiar_Click"/>
+                </StackPanel>
+            </Grid>
+        </ScrollViewer>
+    </Border>
+</Page>

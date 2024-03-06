@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="APPProyecto.MisControles.Administracion.UCRegistro"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:APPProyecto.MisControles.Administracion"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="350">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" Margin="30, 0, 30, 0">
+            <Image Source="/Resources/Registro.png" Width="255" Height="100" Margin="0,0,0,20"/>
+
+            <Label Content="Correo del usuario"/>
+            <TextBox x:Name="txtCorreo" ToolTip="Correo del usuario" Margin="0,0,0,10"/>
+
+            <Label Content="Contraseña"/>
+            <PasswordBox x:Name="txtContraseña" ToolTip="Contraseña" Margin="0,0,0,10"/>
+            <PasswordBox x:Name="txtSeguridad" ToolTip="Repite la Contraseña" Margin="0,0,0,10"/>
+
+            <Label Content="Nombre"/>
+            <TextBox x:Name="txtNombre" ToolTip="Nombre" Margin="0,0,0,10"/>
+
+            <Label Content="Pregunta de seguridad"/>
+            <TextBox x:Name="txtPregunta" ToolTip="Pregunta de seguridad" Margin="0,0,0,10"/>
+
+            <Label Content="Respuesta"/>
+            <TextBox x:Name="txtRespuesta" ToolTip="Respuesta" Margin="0,0,0,10"/>
+
+            <CheckBox x:Name="chRol" Content="Es Administrador?" Margin="0,0,0,10" Visibility="Hidden"/>
+            <Button x:Name="btnRegistrar" Content="Registrar Usuario" Width="100" Height="30" Click="btnRegistrar_Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

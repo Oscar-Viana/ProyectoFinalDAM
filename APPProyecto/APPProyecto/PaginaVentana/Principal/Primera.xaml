@@ -1,0 +1,138 @@
+﻿<Page x:Class="APPProyecto.PaginaVentana.Primera"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:APPProyecto.PaginaVentana"
+      mc:Ignorable="d" 
+      d:DesignHeight="475" d:DesignWidth="800"
+      Title="Principal"
+      KeyboardNavigation.DirectionalNavigation="None"
+      ShowsNavigationUI="False">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Styles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="MidnightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <!--Grid Logo-->
+        <Grid Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="10"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="25"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Logo-->
+            <Image Grid.Column="1" Grid.Row="1" Source="/Resources/Logo.png"/>
+            <!--Rotulo-->
+            <Image Grid.Column="3" Grid.Row="1" Source="/Resources/Rotulo.png"/>
+        </Grid>
+
+        <!--Grid Login-->
+        <Border Grid.Column="1" Grid.Row="1" BorderBrush="Yellow" BorderThickness="3" CornerRadius="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="75"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="75"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="75"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="95"/>
+                    <ColumnDefinition Width="95"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="75"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1" Source="/Resources/Login.png" Stretch="Fill"/>
+                <TextBox x:Name="txtCorreo" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3" ToolTip="Ingresa el Correo Electrónico"/>
+                <PasswordBox x:Name="txtPassword" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="5" ToolTip="Ingresa tu contraseña"/>
+                <Button x:Name="btnLogin" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="7" Content="Login" ToolTip="Iniciar Sesion" Margin="50,0,50,0" Click="btnLogin_Click"/>
+            </Grid>
+        </Border>
+
+        <!--Grid Registro-->
+        <Border Grid.Column="3" Grid.Row="1" BorderBrush="Yellow" BorderThickness="3" CornerRadius="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="50"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="95"/>
+                    <ColumnDefinition Width="95"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="50"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="90"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="10"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Column="1" Grid.ColumnSpan="4" Grid.Row="1" Source="/Resources/Registro.png"/>
+                <TextBox x:Name="txtRegCorreo" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="3" ToolTip="Ingresa Correo Electrónico"/>
+                <TextBox x:Name="txtRegAlias" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="5" ToolTip="Ingresa tu Alias"/>
+                <PasswordBox x:Name="txtRegContra1" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="7" ToolTip="Ingresa una contraseña"/>
+                <PasswordBox x:Name="txtRegContra2" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="9" ToolTip="Repite la contraseña"/>
+                <TextBox x:Name="txtPregunta" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="11" ToolTip="Ingresa una pregunta para recuperar contraseña"/>
+                <PasswordBox x:Name="txtRespuesta" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="13" ToolTip="Repite la contraseña"/>
+                <Button x:Name="btnGenerar" Content="Generar" Grid.Column="5" Grid.Row="7" ToolTip="Generar una contraseña automática, 9 caracteres, 1 mayuscula y 1 numero" Grid.RowSpan="2" Click="btnGenerar_Click" Margin="0,0,0,8"/>
+
+                <Button x:Name="btnRegistro" Content="Registro" Grid.Row="15" Margin="44,0,26,0" ToolTip="Registrarse" Grid.ColumnSpan="3" Height="20" Grid.RowSpan="2" VerticalAlignment="Top" Click="btnRegistro_Click"/>
+                <Button x:Name="btnOlvido" Content="Contraseña olvidada" Grid.Column="3" Grid.Row="15" Margin="25, 0, -50, 0" ToolTip="Cambiar contraseña olvidada" Click="btnOlvido_Click"/>
+
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</Page>

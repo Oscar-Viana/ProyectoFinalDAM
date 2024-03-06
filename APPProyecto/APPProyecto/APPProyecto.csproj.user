@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_LastSelectedProfileId>C:\Users\Usuario\Desktop\clase\GRADO SUPERIOR %28CIFP Nª1%29\PROYECTO FINAL 3\Aplicacion\APPProyecto\APPProyecto\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MisControles\Administracion\UCPeticiones.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MisControles\Administracion\UCRegistro.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MisControles\Ajustes\SelecAvatar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MisControles\Ajustes\UCAvatares.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MisControles\Entrar\UCPelicula.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MisControles\Pelicula\UCComentario.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Administradores\Administracion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Administradores\Peticiones.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Administradores\Ventana.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Ajustes\Ajustes.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Entrar\Buscador.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\MisPeliculas\MisPeliculas.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Peliculas\Comparar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Peliculas\Informacion.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Peliculas\PeliculaInfo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Principal\Bloqueo.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Principal\Olvidada.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PaginaVentana\Principal\Primera.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Resource1.resx">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MisControles\Administracion\UCPeticiones.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MisControles\Administracion\UCRegistro.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MisControles\Ajustes\SelecAvatar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MisControles\Ajustes\UCAvatares.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MisControles\Entrar\UCPelicula.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MisControles\Pelicula\UCComentario.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Administradores\Administracion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Administradores\Peticiones.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Administradores\Ventana.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Ajustes\Ajustes.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Entrar\Buscador.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\MisPeliculas\MisPeliculas.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Peliculas\Comparar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Peliculas\Informacion.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Peliculas\PeliculaInfo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Principal\Bloqueo.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Principal\Olvidada.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PaginaVentana\Principal\Primera.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
